@@ -1,9 +1,10 @@
 // import logo from './logo.svg';
 import './App.css';
 import Card from './components/Card';
+import Footer from './components/Footer.js';
 import Navbar from './components/Navbar';
 import data from './data';
-
+// import Footer from './components/Footer.js';
 function App() {
   const dataCard=data.map(item=>{
     return (<Card 
@@ -18,7 +19,10 @@ function App() {
   return (
     <div className='App'>
       <Navbar/>
-      {dataCard}
+      <section className='cardList'>
+        {dataCard}
+      </section>
+      <Footer/>
     </div>
     
   );

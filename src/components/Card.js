@@ -3,8 +3,8 @@ import '../index.css';
 
 export default function Card(props){
     return(
-    <div className='card flex '>
-        <img src={props.imgLink} alt={props.title} />
+    <div className='card flex p-12 '>
+        <img src={props.imgLink} alt={props.title} className="max-w-full h-auto rounded-lg" />
         <div className='div-text'>
             <p><span className=''><i class="fa fa-map-marker"></i>{props.location}</span> <a href={props.mapLink} target="_blank" rel="noreferrer">View on Google Map</a></p>
             <h2>{props.title}</h2>
