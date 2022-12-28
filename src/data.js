@@ -11,7 +11,7 @@ const data = [{
 },
 {
     key: 2,
-    title: "The Pink City:Jaipur",
+    title: "The Pink City-Jaipur",
     mapLink: "https://goo.gl/maps/VsT6wQMyzBPQF4Y49",
     location: "India",
     startDate: "20 May, 2017",
