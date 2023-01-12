@@ -7,14 +7,20 @@ import data from './data';
 // import Footer from './components/Footer.js';
 function App() {
   const dataCard=data.map(item=>{
-    return (<Card 
+    return (
+   <>
+    <Card 
     imgLink={item.imgLink}
     title={item.title}
     location={item.location}
     mapLink={item.mapLink}
     startDate={item.startDate}
     endDate={item.endDate}
-    description={item.description}/>);
+    description={item.description}/>
+    <hr className='mx-12  shadow'></hr>
+    </>
+   );
+    
   })
   return (
     <div className='App'>

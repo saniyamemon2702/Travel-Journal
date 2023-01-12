@@ -17,7 +17,7 @@ const data = [{
     startDate: "20 May, 2017",
     endDate: "24 May, 2017",
     description: "Jaipur is the capital of India’s Rajasthan state. It evokes the royal family that once ruled the region and that, in 1727, founded what is now called the Old City, or “Pink City” for its trademark building color. At the center of its stately street grid (notable in India) stands the opulent, colonnaded City Palace complex. With gardens, courtyards and museums, part of it is still a royal residence.",
-    imgLink: "https://images.unsplash.com/photo-1524230699147-7e6f131d021e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=334&q=80"
+    imgLink: "https://images.unsplash.com/photo-1550499190-1b823e9650ed?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
 },
 {
     key: 3,
