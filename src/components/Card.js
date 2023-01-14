@@ -3,7 +3,7 @@ import '../index.css';
 
 export default function Card(props){
     return(
-    <div className=' card p-12 flex-col sm:flex-row  flex  items-center '>
+    <div className='card p-12 flex-col sm:flex-row  flex  items-center'>
         
 {/* <div className=''> */}
         <img src={props.imgLink} alt={props.title} className="rounded-lg h-96 w-64  sm:h-80" />
