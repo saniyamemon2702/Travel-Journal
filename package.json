@@ -1,5 +1,6 @@
 {
   "name": "travel-journal",
+  "author":"Saniya Memon",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
